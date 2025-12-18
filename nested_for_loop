@@ -1,0 +1,17 @@
+//Example of for loop
+//By niqabytedev
+
+#include <iostream>
+using namespace std;
+int main() 
+{
+	short int i, j;
+	for (i = 1; i <= 3; i++) {
+		cout << "dis dongu" << i << endl;
+		for (j = 1; j <= 3; j++) {
+			cout << "\tic dongu" << j << endl;
+		}
+	}
+	cout << "\n";
+	return 0;
+}
